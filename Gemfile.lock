@@ -4,13 +4,14 @@ GEM
     fortune (0.0.3)
 
 PLATFORMS
+  arm64-darwin-23
   ruby
 
 DEPENDENCIES
   fortune
 
 RUBY VERSION
-   ruby 2.4.5p335
+   ruby 3.3.0p0
 
 BUNDLED WITH
-   2.0.1
+   2.5.3
