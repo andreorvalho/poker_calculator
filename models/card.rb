@@ -40,7 +40,7 @@ module Models
     def self.deck
       @deck ||= NUMBERS.keys.flat_map do |number|
         SUITS.keys.map do |suit|
-          [suit, number]
+          self.new(suit: suit, number: number)
         end
       end
     end

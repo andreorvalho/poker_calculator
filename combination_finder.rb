@@ -3,7 +3,7 @@ class CombinationFinder
 
   # COMBINATIONS
   STRAIGHT_FLUSH = 9
-  QUADS = 9
+  QUADS = 8
   FULL_HOUSE = 7
   FLUSH = 6
   STRAIGHT = 5
